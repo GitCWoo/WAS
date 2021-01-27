@@ -137,3 +137,71 @@ vim /usr/local/apache-tomcat-8.5.61/conf/server.xml
 systemctl status tomcat
 systemctl restart tomcat
 curl localhost:8080
+git push origin master
+git add .
+git commit -m "update"
+git push origin master
+java -version
+tomcat -version
+tomcat -V
+tomcat -v
+cd /uer/local/tomcat/lib
+cd /usr/local/tomcat/lib
+cd /usr
+cd /local
+cd /tomcat
+exit
+$ sudo yum install tomcat
+$ esudo yum install tomcat
+exit
+mkdir monitoring
+cd monitoring
+wget https://github.com/prometheus/node_exporter/releases/download/  v1.0.1/node_exporter-1.0.1.linux-amd64.tar.gz
+tar -zxvf node_exporter-1.0.1.linux-amd64.tar.gz
+ls
+ wget https://github.com/prometheus/node_exporter/releases/download/  v1.0.1/node_exporter-1.0.1.linux-amd64.tar.gz
+d wget https://github.com/prometheus/node_exporter/releases/download/  v1.0.1/node_exporter-1.0.1.linux-amd64.tar.gz
+wget https://github.com/prometheus/node_exporter/releases/download/  v1.0.1/node_exporter-1.0.1.linux-amd64.tar.gz
+wget https://github.com/prometheus/node_exporter/releases/download/v1.0.1/node_exporter-1.0.1.linux-amd64.tar.gz
+tar -zxvf node_exporter-1.0.1.linux-amd64.tar.gz
+rm node_exporter-1.0.1.linux-amd64.tar.gz
+sudo mv node_exporter-1.0.1.linux-amd64/ node_exporter
+sudo ./node_exporter > /dev/null 2>&1 &
+curl localhost:9100/metrics
+ps ef | grep node
+ps -ef | grep node
+sudo ./node_exporter > /dev/null 2>&1 &
+curl localhost:9100/metrics
+sudo ./node_exporter > /dev/null 2>&1 &
+curl localhost:9100/metrics
+ps -ef | grep node
+sudo ./node_exporter > /dev/null 2>&1 &
+curl localhost:9100/metrics
+sudo ./node_exporter > /dev/null 2>&1 &
+curl localhost:9100/metrics
+cd node_exporter
+sudo ./node_exporter > /dev/null 2>&1 &
+curl localhost:9100/metrics
+ps -ef | grep node_
+kill 5327
+ps -ef | grep node_
+sudo ./node_exporter > /dev/null 2>&1 &
+curl localhost:9100/metrics
+ps -ef | grep node_
+kill 5341
+ps -ef | grep node_
+sudo ./node_exporter > /dev/null 2>&1 &
+curl localhost:9100/metrics
+cd
+cd /etc/systemd/system
+vi monitoring service
+ls
+vi monitoring service
+ps -ef | grep node_
+kill 5353
+sudo systemctl start moniotring
+sudo systemctl start monitoring
+rm monitoring
+vi monitoring.service
+sudo systemctl start monitoring
+systemctl enable monitoring
